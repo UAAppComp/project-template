@@ -35,7 +35,7 @@ download.file('https://raw.githubusercontent.com/rfordatascience/tidytuesday/mas
 Then, your data load in `munge.R` would be as such and you needn’t worry
 about loading from GitHub:
 
-`colony <- readr::read_csv(here("data", "raw", "colony.csv')`
+`colony <- readr::read_csv(here("data", "raw", "colony.csv'))`
 
 ## Authors
 
@@ -55,7 +55,7 @@ about loading from GitHub:
 ## Report
 
 The resultant report from this project is `/docs/draft.pdf` by default.
-The `papaja` document, `/docs/draft.Rmd`/, has a variety of comments and
+The `papaja` document, `/docs/draft.Rmd`, has a variety of comments and
 instructions within as comments. These are general suggestions that
 follow a generic research paper structure.
 
